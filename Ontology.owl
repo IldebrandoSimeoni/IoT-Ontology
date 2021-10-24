@@ -1,0 +1,850 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user1/ontologies/2021/4/untitled-ontology-11"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/user1/ontologies/2021/4/untitled-ontology-11">
+    <Prefix name="" IRI="http://www.semanticweb.org/user1/ontologies/2021/4/untitled-ontology-11"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#ARS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Android_tablet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Application_areas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attendance_record"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Back_end_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Behavior_record"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cloud_Based_database"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cloud_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Course_video"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Education_management_services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Education_management_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Games"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IRS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intelligent_transportation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interactive_response"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IoT_device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IoT_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ipad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile_terminal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Node_MCU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Open_source_hardware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QR_code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RFID_RC522"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RFID_card"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RFID_frequency_band"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RFID_reader"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RFID_tag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RFID_tag_active"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RFID_tag_passive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RFID_technology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smart_city"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smartphone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Student"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System_user"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teacher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UHF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WiFi_reader"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Allow"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Composed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Education_management_system_utilize"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Implemented_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IoT_devices_utilized"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Made_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Operate_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Part_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#QR_code_utilized"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#RFID_card_utilized"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#RFiD_reader_utilized"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Registered_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Scanned_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Student_utilize"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#System_user_utilize"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Teacher_utilize"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Used_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Utilize"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Utilized"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#WiFi_reader_operate_in"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Frequency_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HF_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#LF_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#MF_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#UHF_value"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ipad_teacher1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RFID_card_student1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Smartphone_student1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Student1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Teacher1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WiFi_reader_class1"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#ARS"/>
+        <Class IRI="#IRS"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Android_tablet"/>
+        <Class IRI="#Mobile_terminal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Attendance_record"/>
+        <Class IRI="#Education_management_services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Behavior_record"/>
+        <Class IRI="#Education_management_services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cloud_Based_database"/>
+        <Class IRI="#Cloud_system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Course_video"/>
+        <Class IRI="#Education_management_services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Education_management_system"/>
+        <Class IRI="#Application_areas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Games"/>
+        <Class IRI="#Application_areas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HF"/>
+        <Class IRI="#RFID_frequency_band"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intelligent_transportation"/>
+        <Class IRI="#Application_areas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interactive_response"/>
+        <Class IRI="#Education_management_services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ipad"/>
+        <Class IRI="#Mobile_terminal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LF"/>
+        <Class IRI="#RFID_frequency_band"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MF"/>
+        <Class IRI="#RFID_frequency_band"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile_terminal"/>
+        <Class IRI="#IoT_device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Node_MCU"/>
+        <Class IRI="#Open_source_hardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RFID_RC522"/>
+        <Class IRI="#Open_source_hardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RFID_card"/>
+        <Class IRI="#RFID_technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RFID_frequency_band"/>
+        <Class IRI="#RFID_technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RFID_reader"/>
+        <Class IRI="#RFID_technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RFID_tag"/>
+        <Class IRI="#RFID_technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RFID_tag_active"/>
+        <Class IRI="#RFID_tag"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RFID_tag_passive"/>
+        <Class IRI="#RFID_tag"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Smart_city"/>
+        <Class IRI="#Application_areas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Smartphone"/>
+        <Class IRI="#Mobile_terminal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Student"/>
+        <Class IRI="#System_user"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teacher"/>
+        <Class IRI="#System_user"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UHF"/>
+        <Class IRI="#RFID_frequency_band"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WiFi_reader"/>
+        <Class IRI="#RFID_reader"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Ipad"/>
+        <NamedIndividual IRI="#Ipad_teacher1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RFID_card"/>
+        <NamedIndividual IRI="#RFID_card_student1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Smartphone"/>
+        <NamedIndividual IRI="#Smartphone_student1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Student"/>
+        <NamedIndividual IRI="#Student1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Teacher"/>
+        <NamedIndividual IRI="#Teacher1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WiFi_reader"/>
+        <NamedIndividual IRI="#WiFi_reader_class1"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Education_management_system_utilize"/>
+        <ObjectProperty IRI="#Utilize"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#IoT_devices_utilized"/>
+        <ObjectProperty IRI="#Utilized"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#QR_code_utilized"/>
+        <ObjectProperty IRI="#Utilized"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#RFID_card_utilized"/>
+        <ObjectProperty IRI="#Utilized"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#RFiD_reader_utilized"/>
+        <ObjectProperty IRI="#Utilized"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Student_utilize"/>
+        <ObjectProperty IRI="#Utilize"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#System_user_utilize"/>
+        <ObjectProperty IRI="#Utilize"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Teacher_utilize"/>
+        <ObjectProperty IRI="#Utilize"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#WiFi_reader_operate_in"/>
+        <ObjectProperty IRI="#Operate_in"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Education_management_system_utilize"/>
+        <ObjectProperty IRI="#QR_code_utilized"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#IoT_devices_utilized"/>
+        <ObjectProperty IRI="#System_user_utilize"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Made_of"/>
+        <ObjectProperty IRI="#Part_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#RFID_card_utilized"/>
+        <ObjectProperty IRI="#Student_utilize"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#RFiD_reader_utilized"/>
+        <ObjectProperty IRI="#Teacher_utilize"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Utilize"/>
+        <ObjectProperty IRI="#Utilized"/>
+    </InverseObjectProperties>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Allow"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Composed_by"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Operate_in"/>
+    </AsymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#Made_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#Part_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#Registered_in"/>
+    </TransitiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Allow"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Composed_by"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Implemented_by"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Made_of"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Part_of"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Registered_in"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Scanned_by"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Used_in"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Allow"/>
+        <Class IRI="#ARS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Composed_by"/>
+        <Class IRI="#WiFi_reader"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Education_management_system_utilize"/>
+        <Class IRI="#Education_management_services"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Implemented_by"/>
+        <Class IRI="#Education_management_system"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IoT_devices_utilized"/>
+        <Class IRI="#IoT_device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Made_of"/>
+        <Class IRI="#IoT_system"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Operate_in"/>
+        <Class IRI="#RFID_reader"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Back_end_system"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#Cloud_system"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#IoT_device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#QR_code_utilized"/>
+        <Class IRI="#QR_code"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#RFID_card_utilized"/>
+        <Class IRI="#RFID_card"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#RFiD_reader_utilized"/>
+        <Class IRI="#RFID_reader"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Registered_in"/>
+        <Class IRI="#Education_management_services"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Scanned_by"/>
+        <Class IRI="#QR_code"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Student_utilize"/>
+        <Class IRI="#Student"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#System_user_utilize"/>
+        <Class IRI="#System_user"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Teacher_utilize"/>
+        <Class IRI="#Teacher"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Used_in"/>
+        <Class IRI="#IoT_system"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#WiFi_reader_operate_in"/>
+        <Class IRI="#WiFi_reader"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Allow"/>
+        <Class IRI="#Interactive_response"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Composed_by"/>
+        <Class IRI="#Open_source_hardware"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Education_management_system_utilize"/>
+        <Class IRI="#QR_code"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Implemented_by"/>
+        <Class IRI="#Education_management_services"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IoT_devices_utilized"/>
+        <Class IRI="#System_user"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Made_of"/>
+        <Class IRI="#Back_end_system"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Made_of"/>
+        <Class IRI="#Cloud_system"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Made_of"/>
+        <Class IRI="#IoT_device"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Operate_in"/>
+        <Class IRI="#RFID_frequency_band"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_of"/>
+        <Class IRI="#IoT_system"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#QR_code_utilized"/>
+        <Class IRI="#Education_management_services"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RFID_card_utilized"/>
+        <Class IRI="#Student"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RFiD_reader_utilized"/>
+        <Class IRI="#Teacher"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Registered_in"/>
+        <Class IRI="#Cloud_Based_database"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Scanned_by"/>
+        <Class IRI="#System_user"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Student_utilize"/>
+        <Class IRI="#RFID_card"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#System_user_utilize"/>
+        <Class IRI="#IoT_device"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Teacher_utilize"/>
+        <Class IRI="#RFID_reader"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Used_in"/>
+        <Class IRI="#Application_areas"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi_reader_operate_in"/>
+        <Class IRI="#HF"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#HF_value"/>
+        <DataProperty IRI="#Frequency_value"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#LF_value"/>
+        <DataProperty IRI="#Frequency_value"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#MF_value"/>
+        <DataProperty IRI="#Frequency_value"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#UHF_value"/>
+        <DataProperty IRI="#Frequency_value"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Frequency_value"/>
+        <Class IRI="#HF"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HF_value"/>
+        <Class IRI="#HF"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#LF_value"/>
+        <Class IRI="#LF"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#MF_value"/>
+        <Class IRI="#MF"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#UHF_value"/>
+        <Class IRI="#UHF"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Frequency_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>13.56 MHz</Literal>
+        </Annotation>
+        <DataProperty IRI="#HF_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>125~134 kHz</Literal>
+        </Annotation>
+        <DataProperty IRI="#LF_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>2.45 GHz</Literal>
+        </Annotation>
+        <DataProperty IRI="#MF_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>433~956 MHz</Literal>
+        </Annotation>
+        <DataProperty IRI="#UHF_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ARS</IRI>
+        <Literal>Audience Response System, is a phsical device that allows students to
+submit their responses using remote devices</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Application_areas</IRI>
+        <Literal>Application areas of IoT technologies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Attendance_record</IRI>
+        <Literal>When students enter into the classroom, they need to swipe the RFID card to register the time for a specific course</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Back_end_system</IRI>
+        <Literal>The IoT devices need connect to the back-end system in order to receive and send informations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Behavior_record</IRI>
+        <Literal>Teacher selects one behavior of classroom performance, and then
+the WiRF reader is used to swipe the target student</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cloud_Based_database</IRI>
+        <Literal>The tables in Cloud-based database includes the following: user table, course table, record table.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Education_management_services</IRI>
+        <Literal>Super class composed of different type of education services enhanced by IoT systems</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Education_management_system</IRI>
+        <Literal>The main application area of IoT technologies here discussed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Frequency_value</IRI>
+        <Literal>Frequency ranges in which RFID systems work</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HF</IRI>
+        <Literal>high frequency (HF)—13.56 MHz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IRS</IRI>
+        <Literal>Interactive Response System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Interactive_response</IRI>
+        <Literal>The teacher can use QR code to distribute the practice exercises to students. Students can use mobile phone to scan the QR code to see the questions and answer them.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IoT_system</IRI>
+        <Literal>Describes the network of physical objects—a.k.a. &quot;things&quot;—that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the Internet.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LF</IRI>
+        <Literal>low frequency (LF)—125~134 kHz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MF</IRI>
+        <Literal>microwave frequency (MF)—2.45 GHz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mobile_terminal</IRI>
+        <Literal>A computerized device used on mobile devices to communicate with a centralized control system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Node_MCU</IRI>
+        <Literal>An open-source firmware which includes ESP8266 WiFi module, and supports programmable platform for IoT application development at the lowest cos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#QR_code</IRI>
+        <Literal>IT application used in many education management services</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RFID_RC522</IRI>
+        <Literal>Highly integrated reader/writer integrated circuit (IC) for contactless communication at 13.56 MHz which is widely used for HF RFID reader systems</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RFID_card</IRI>
+        <Literal>In this domain used as students’ identification devices</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RFID_tag_active</IRI>
+        <Literal>Active tag has battery and can send the information at hundreds of meters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RFID_tag_passive</IRI>
+        <Literal>Passive tag depends on the emitted energy of reader’s
+antenna instead of using battery to transmit information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RFID_technology</IRI>
+        <Literal>Radio Frequency Identification (RFID) is one of key technologies to implement IoT applications</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#System_user</IRI>
+        <Literal>General users of this IoT based education management system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UHF</IRI>
+        <Literal>ultra-high frequency (UHF)—433~956 MHz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Utilize</IRI>
+        <Literal>General Super Property that describes usage with different meaning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Utilized</IRI>
+        <Literal>Inverse property of Utilize</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WiFi_reader</IRI>
+        <Literal>RFID system that work in wireless method</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
